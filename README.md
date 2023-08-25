@@ -12,11 +12,18 @@ An opinionated Makefile to simplify using the Radiance physically based renderin
 7. Run one or more of the following commands:
 
 `make rvu` to invoke the interactive Radiance viewer
+
 `make lumpic` to generate a luminance picture
+
 `make illpic` to generate an illuminance picture
+
 `make lumpmap` to generate a luminance picture with photon mapping
+
 `make illpmap` to generate an illuminance picture with photon mapping
+
 `make illgrid` to calculate illuminance values over a grid
+
 `make dfgrid` to calculate daylight factor values over a grid
+
 `make hdrfinalise` to post process the luminance and illuminance pictures
 
